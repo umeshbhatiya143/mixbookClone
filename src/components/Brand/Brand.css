@@ -1,0 +1,30 @@
+.brand{
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 270px;
+    padding: 10px;
+}
+
+.leftBrand{
+    width: 250px;
+    text-align: center;
+}
+.leftBrand>img{
+    width: 100px;
+}
+.leftBrand>p{
+    font-size: 15px;
+    color: gray;
+    font-style: italic;
+}
+
+.middle{
+    width: 400px;
+    text-align: center;
+}
+.middle>img{
+    width: 350px;
+}

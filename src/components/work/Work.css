@@ -1,0 +1,172 @@
+.work{
+    height: 1800px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    margin-left: 100px;
+    gap: 1rem;
+}
+.wcard>img{
+    width: 300px;
+  position: relative;
+  z-index: -1;
+  
+}
+
+.space{
+   height: 60px;
+    background-color: white;
+    opacity: 0.8;
+    margin-top: -50px;
+    text-align: center;
+    align-items: center;
+}
+.space>p{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+p:hover{
+    color:aqua ;
+}
+
+.work>h3{
+
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.row2{
+   margin-left: 90px;
+
+   margin-top: 50px;
+   margin-right: 120px;
+}
+
+.row2>img{
+    width: 600px;
+}
+
+.row2btn{
+    width:80px;
+    height: 40px;
+  border-radius: 0.2rem;
+  border: none;
+  background-color: rgb(245, 21, 21);
+  color: white;
+}
+
+
+.row2>swiper {
+    width: 100%;
+    height: 70%;
+}
+
+.row2>swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row2>swiper-pagination-bullet-active{
+    margin-top: 20px;
+    background: var(--orange);
+}
+.testimonial>img{
+    width: 600px;
+}
+.testimonial{
+    background-color:#fcf8f6 ;
+    display: flex;
+    
+}
+
+.testimonial>h3{
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: normal;
+    width: 500px;
+    margin-left: 40px;
+    text-align: start;
+}
+.testimonial>p{
+   margin-top: 250px;
+   margin-left: -500px;
+
+}
+.tbtn{
+    margin-top: 300px;
+    height: 70px;
+    width: 200px;
+    background-color: rgb(230, 25, 77);
+    border: none;
+    border-radius: 0.4rem;
+    margin-left: -660px;
+    font-size: 25px;
+    color: white;
+}
+
+.row3{
+    display: flex;
+    flex-direction: row;
+    margin: 4rem;
+    text-align: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.row3left{
+    width: 400px;
+    text-align: start;
+}
+
+.row3left>h3{
+margin-bottom: 40px;
+}
+
+.row3right>img{
+    width: 700px;
+    margin-left: 190px;
+}
+
+.btn4{
+   
+    height: 60px;
+    width: 200px;
+    background-color: rgb(25, 189, 230);
+    border: none;
+    border-radius: 0.4rem;
+  
+    font-size: 25px;
+    color: white;
+}
+
+.btn5{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(25, 189, 230);
+    border: none;
+    border-radius: 0.4rem;
+  
+    font-size: 25px;
+    color: white;
+}
+
+.row4>h3{
+    font-size: 25px;
+}
+.row4>h6{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.btn4,.btn5,.btn{
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,54 @@
+.Intro{
+    background-color: #fcf8f6;
+    height: 700px;
+}
+.CardsUp{
+   width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.CardsMiddle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.cards{
+    margin: 1rem;
+    padding-left: 25px;
+}
+
+  .content{
+    width: 980px;
+    height: 250px;
+    align-items: center;
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  h1{
+    font-size: 60px;
+  }
+  p{
+    margin-top: -20px;
+    font-size: 20px;
+  }
+
+  .btn{
+    background-color: #E8778D;
+    border-radius: 0.2rem;
+    width: 10%;
+    border:none;
+    color: white;
+    height: 35px;
+    margin-right: 20px;
+  }
+
+  .btn:hover{
+    background-color: #F14612;
+    cursor: pointer;
+  }
+  
+ 

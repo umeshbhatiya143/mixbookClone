@@ -1,0 +1,25 @@
+.container{
+    height: 8vh;
+    display: flex;
+    background-color: #001a00;
+    width: 100%;
+    background-clip: content-box;
+    margin-top: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    align-items: center;
+    display: flex;
+    margin-left: 30rem;
+    text-align: center;
+}
+
+a{
+    color: white;
+    border: none;
+    text-decoration: none;
+    margin-left: 1rem;
+}

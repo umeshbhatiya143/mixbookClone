@@ -1,0 +1,48 @@
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.n-left{
+
+    gap: 2rem;
+    margin-left: 5rem;
+}
+
+img{
+    width: 15%; 
+}
+
+.n-list>ul>.search{
+    border-radius: 1rem;
+    width: 5rem;
+   
+}
+.n-list{
+  display: flex;
+  margin-left: 3rem;
+}
+
+.n-list>ul{
+    display: flex;
+    gap: 2rem;
+    font-size: 12px;
+    align-items: center;
+   
+}
+
+.n-right{
+    
+    gap: 1rem;
+    margin-right: 3rem;
+}
+
+.n-list_right>ul{
+    display: flex;
+    gap: 2rem;
+    font-size: 12px;
+    align-items: center;
+    margin-top:2rem;
+   
+}
